@@ -7,6 +7,7 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 10px;
 }
 
 .title {
@@ -19,9 +20,19 @@ body {
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+}
+
+.title, .content, .button-container {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding: 10px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin: auto;
+  padding: 5px 20px;
 }
